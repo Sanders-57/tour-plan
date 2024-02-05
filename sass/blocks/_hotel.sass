@@ -1,0 +1,85 @@
+.hotel
+  padding-top: 23px
+  padding-bottom: 70px
+  &-name
+    font-size: 24px
+    margin-top: 4px
+    margin-bottom: 0
+  &-info
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-bottom: 20px
+    &__offer
+      margin-left: 14px
+      margin-top: 4px
+    &__name
+      margin-top: 4px
+      margin-bottom: 0
+  &-wrapper
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+  &-description
+    margin: 0
+    font-size: 12px
+    color: inherit
+.stars
+  flex-basis: 100%
+.offer
+  font-size: 10px
+  background-color: $primary
+  color: $light
+  padding: 4px 9px
+  border-radius: 4px
+
+.rating
+  max-width: 65px
+  min-height: 45px
+  text-align: center
+  color: $light
+  background-color: $primary
+  border-radius: 4px
+  &__text
+    font-size: 8px
+  &__counter
+    font-size: 14px
+.swiper
+  width: 100%
+  height: 450px
+  border-radius: 8px
+  &:after
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    bottom: 0
+    width: 0
+    height: 0
+    background: linear-gradient( 180deg, rgba(0, 122, 223, 0.48) 0%, rgba(225, 225, 225, 0.128) 100%)
+    z-index: 10
+
+.slider
+  position: relative
+  width: 728px
+
+  &-button
+    height: 30px
+    width: 30px
+    top: 50%
+    transform: translateY(-50%)
+    border: none
+    position: absolute
+    z-index: 99
+    cursor: pointer
+    background-repeat: no-repeat
+    background-position: center
+    background-color: transparent
+    &--next
+      right: 18px
+      background-image: url(../img/arrow-next.svg)
+
+    &--prev
+      left: 18px
+      background-image: url(../img/arrow-prev.svg)
