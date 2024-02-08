@@ -705,6 +705,5 @@ template {
 .map {
   width: 347px;
   height: 213px;
-  background-color: black;
-  border-radius: 6px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
